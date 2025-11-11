@@ -38,6 +38,8 @@ jobs:
       - name: Build drivers
         run: |
           kalamine build ergoal.toml
+          kalamine build ergoal-mac.toml
+          kalamine build ergoal-mac-anglemod.toml
 
       - name: Upload driver artifact
         uses: actions/upload-artifact@v4
