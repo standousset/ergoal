@@ -6,7 +6,7 @@ description = "French (Ergoa-L)"
 author      = "standousset"
 url         = "https://github.com/standousset/ergoal"
 geometry    = "ERGO"
-version     = "1.0.1"
+version     = "1.0.2"
 
 base = '''
 ╭╌╌╌╌╌┰─────┬─────┬─────┬─────┬─────┰─────┬─────┬─────┬─────┬─────┰╌╌╌╌╌┬╌╌╌╌╌╮
@@ -19,8 +19,8 @@ base = '''
 ·     ┃ A   │ S   │ E   │ N   │ F © ┃ L ' │ R   │ T   │ I   │ U   ┃     ┆     ┆
 ·     ┃   à │   é │   è │   ê │   @ ┃   " │   # │   î │   ï │   ù ┃     ┆     ┆
 ╭╌╌╌╌╌╂─────┼─────┼─────┼─────┼─────╂─────┼─────┼─────┼─────┼─────╂╌╌╌╌╌┴╌╌╌╌╌╯
-┆ \   ┃ Z   │ X _ │ ? — │ V € │ B 🡐 ┃ :   │ H | │ G   │ ; • │ K ⇄ ┃           ·
-┆ /   ┃   æ │   + │ - – │   $ │   🡒 ┃ . … │   & │  *µ │ , · │   ⤷ ┃           ·
+┆ \   ┃ Z   │ X _ │ ? — │ V € │ B ← ┃ :   │ H | │ G   │ ; • │ K ⇄ ┃           ·
+┆ /   ┃   æ │   + │ - – │   $ │   → ┃ . … │   & │  *µ │ , · │   ⤷ ┃           ·
 ╰╌╌╌╌╌┸─────┴─────┴─────┴─────┴─────┸─────┴─────┴─────┴─────┴─────┚ · · · · · ·
 '''
 
@@ -41,10 +41,10 @@ altgr = '''
 '''
 
 [spacebar]
-shift       = "\u202f"  # NARROW NO-BREAK SPACE
-altgr       = "\u0020"  # SPACE
+shift       = "\u0020"  # SPACE
+altgr       = "\u202f"  # NARROW NO-BREAK SPACE
 altgr_shift = "\u00a0"  # NO-BREAK SPACE
-1dk         = "\u22c6"  # STAR OPERATOR
+1dk         = "\u2019"  # RIGHT SINGLE QUOTATION MARK
 1dk_shift   = "\u2019"  # RIGHT SINGLE QUOTATION MARK
 
 
