@@ -38,6 +38,7 @@ jobs:
       - name: Build drivers
         run: |
           kalamine build ergoal.toml
+          kalamine build ergoal-anglemod.toml
           kalamine build ergoal-mac.toml
           kalamine build ergoal-mac-anglemod.toml
 
