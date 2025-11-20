@@ -6,7 +6,7 @@ description = "French (Ergoa-L)"
 author      = "standousset"
 url         = "https://github.com/standousset/ergoal"
 geometry    = "ERGO"
-version     = "1.0.5"
+version     = "1.0.6"
 
 base = '''
 ╭╌╌╌╌╌┰─────┬─────┬─────┬─────┬─────┰─────┬─────┬─────┬─────┬─────┰╌╌╌╌╌┬╌╌╌╌╌╮
